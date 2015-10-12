@@ -55,6 +55,7 @@ namespace Demo_EnumArrayListMenus
         {
             Console.WriteLine();
             Console.WriteLine("You have the following actions available to you.");
+            Console.WriteLine("(With Enum Formated)");
             Console.WriteLine();
 
             foreach (ActionChoice choice in Enum.GetValues(typeof(ActionChoice)))
@@ -69,6 +70,11 @@ namespace Demo_EnumArrayListMenus
                     Console.WriteLine(actionChoiceText);
                 }
             }
+
+            Console.WriteLine();
+            Console.WriteLine("You have the following actions available to you.");
+            Console.WriteLine("(Without Enum Formated)");
+            Console.WriteLine();
 
             foreach (ActionChoice choice in Enum.GetValues(typeof(ActionChoice)))
             {
