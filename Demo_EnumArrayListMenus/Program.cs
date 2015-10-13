@@ -17,7 +17,6 @@ namespace Demo_EnumArrayListMenus
             // "None" is used to indicate no choice or an empty choice
             // enum can also be made nullable
             None,
-            [EnumMember(Value = "Not Stated")]
             QuitGame,
             Move
         }
